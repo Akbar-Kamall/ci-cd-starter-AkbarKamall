@@ -6,7 +6,7 @@ app.get('/health', (req, res) => {
 });
 
 app.get('/', (req, res) => {
-  res.send('Hello Akbar Kamall, CI/CD! My project is ready!');
+  res.send('Hello Akbar Kamall, hi, CI/CD! My project is ready!');
 });
 
 module.exports = app;
